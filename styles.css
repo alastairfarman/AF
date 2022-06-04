@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
+    padding: 2em;
+    flex: 1;
+  }
+
+  .header {
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .home {
+    display: flex;
+    padding: 2em;
+  }
