@@ -1,17 +1,135 @@
-.box {
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+html * {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+  .top {
     display: flex;
-    justify-content: space-evenly;
-    background-color: #f1f1f1;
-    padding: 2em;
+    height: 600px;
+    width: auto;
+    background-image: url("./images/R2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+    padding-right:50%;
+    padding-left:0%;
+    margin: 2%;
     flex: 1;
+    gap: 10%;
+  
   }
 
   .header {
     display: flex;
     justify-content:space-between;
+    background-color: #171614;
+    background-blend-mode:;
+    color: #ebebeb;
+    position: sticky;
+    top: 0;
+
+
   }
 
   .home {
     display: flex;
-    padding: 2em;
+    padding: 0 2% 0 2%;
+    align-items: center;
+    font-weight:bolder;
   }
+
+  .hero {
+    color: #ebebeb;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 5%;
+    margin:10%;
+    background-color: #171614c1;
+    mix-blend-mode: soft;
+  }
+
+  .subheading {
+  font-size: medium;
+  font-weight: normal;
+  }
+  
+  .middle1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFF;
+    max-width: 100%;
+    margin: 20px;
+    
+  }
+
+  .examplecontainer {
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    max-width:100%;
+    
+  
+    }
+
+    .things {
+      width: 200px;
+      height: 200px;
+      background-color: #171614;
+      margin: 0px;
+      border-radius: 5px;
+      list-style-type: none;
+    }
+    
+    .thing {
+      list-style-type: none;
+      text-align: center;
+    }
+
+  .middle2 {
+    background-color: #EBEBEB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 10%;
+    text-align: center;
+  }
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.bottomsub {
+  display: flex;
+  height: 70%;
+  width: 70%;
+  justify-content: space-around;
+  padding: 10%;
+  margin: 5%;
+  background-color: #52489C;
+  border-radius: 10px;
+  }
+
+footer {
+  background-color: #171614;
+  color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+
+}
